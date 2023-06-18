@@ -13,7 +13,7 @@ export const Inicio = () => {
       </Titulo>
       <section className={styles.container}>
         {videos.map((filme) => {
-          return <Cards {...filme} key={videos.id} />;
+          return <Cards {...filme} key={filme.id} />;
         })}
       </section>
     </>
